@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48694" started-at="2020-07-03T16:09:10Z" finished-at="2020-07-03T16:09:59Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunner@78047b92]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="48694" started-at="2020-07-03T16:09:10Z" finished-at="2020-07-03T16:09:59Z">
+      <class name="runner.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.CucumberRunner@78047b92]" name="setUpClass" is-config="true" duration-ms="138" started-at="2020-07-03T16:09:10Z" finished-at="2020-07-03T16:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunner@78047b92]" name="runScenario" duration-ms="48489" started-at="2020-07-03T16:09:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-03T16:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Positive"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["AUT Mercury"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@78047b92]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-07-03T16:09:59Z" finished-at="2020-07-03T16:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
